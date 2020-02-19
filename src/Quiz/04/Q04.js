@@ -1,3 +1,13 @@
+/**
+ *
+ * 리스트를 클릭하면, '완료', '진행중' 을 토글 하는 기능입니다.
+ * 그런데....
+ * 동작을 안합니다.
+ * 어떤 부분이 문제일까요?
+ *
+ *
+ */
+
 import React, { Component, PureComponent } from 'react'
 
 export default class Q04 extends Component {
