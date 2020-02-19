@@ -54,3 +54,12 @@ td {
   flex-direction: column;
   margin-top: 30vh;
 }
+
+input {
+  height: 30px;
+  padding: 12px;
+  font-size: 14px;
+  border: none;
+  border-bottom: 1px solid #7f8c8d;
+  color: #7f8c8d;
+}
