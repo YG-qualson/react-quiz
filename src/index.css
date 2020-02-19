@@ -63,3 +63,37 @@ input {
   border-bottom: 1px solid #7f8c8d;
   color: #7f8c8d;
 }
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+ul {
+  padding: 0;
+  margin: 20px;
+  list-style: none;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  font-size: 30rem;
+  transform: scaleX(0.1) scaleY(0.1);
+  transition: all 700ms ease-in;
+  background-color: #f00;
+}
