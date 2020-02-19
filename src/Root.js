@@ -1,7 +1,7 @@
 import React from 'react'
 import { Switch, Route, Link } from 'react-router-dom'
 import Quiz01 from './Quiz/01/Q01'
-import Quiz02 from './Quiz/02/Q02-promise.timeout'
+import Quiz02 from './Quiz/02/Q02'
 
 function Nav() {
   return (
