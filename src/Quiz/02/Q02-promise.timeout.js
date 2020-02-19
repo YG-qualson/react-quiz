@@ -1,3 +1,9 @@
+/**
+ * promise의 race는 먼저 수행된 비동기 처리의 데이터를 반환합니다.
+ * 이 특성을 이용해 timeout을 구현할 수 있습니다.
+ *
+ */
+
 import React, { useEffect, useCallback, useState } from 'react'
 
 function Q02() {

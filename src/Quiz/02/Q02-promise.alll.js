@@ -1,3 +1,9 @@
+/**
+ *
+ * Promise.all 을 사용하면, 비동기 처리를, 병렬로 진행 할 수 있습니다.
+ *
+ *
+ */
 import React, { useEffect, useCallback, useState } from 'react'
 
 function Q02() {
