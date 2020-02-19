@@ -1,3 +1,11 @@
+/**
+ *
+ *
+ * 분명히.. Apple을 지웠는데 Peach에서 Transition이 발생합니다.
+ * ReactCSSTransitionGroup 설정에 문제가 있을까요?
+ *
+ */
+
 import React from 'react'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 
