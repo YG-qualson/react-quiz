@@ -8,7 +8,7 @@ html {
   padding: 0;
 }
 
-ul {
+ul.nav {
   display: flex;
   list-style: none;
   flex-wrap: wrap;
@@ -36,9 +36,21 @@ a:hover {
   color: #f1c40f;
 }
 
+th,
+td {
+  border: 1px solid #7f8c8d;
+  text-align: center;
+  padding: 1rem;
+}
+
+.error {
+  color: tomato;
+}
+
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   margin-top: 30vh;
 }
