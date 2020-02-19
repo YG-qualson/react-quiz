@@ -1,3 +1,15 @@
+/**
+ *
+ * 방법은 2가지가 있습니다.
+ *
+ * souldComponentUpdate 라이프 사이클을 이용해, 이 전 데이터와 현재 데이터를 비교해 렌더링 여부를 결졍해주면 됩니다.
+ *
+ * 또는, 얕은 비교(swallow compare) 를 쓰고 있는, PureComponent나 React.memo 를 이용할 수 있다.
+ * 얕은 비교란?
+ * 원시형 타입의 경우 값을 비교하고, 객체 타입은 주소값을 비교하는 것을 얕은 비교라고 한다.
+ *
+ */
+
 import React, { Component, PureComponent } from 'react'
 
 export default class Quiz03 extends Component {

@@ -1,3 +1,13 @@
+/**
+ *
+ * polling 방식으로 view count를 가져오고 있다고 가정합니다.
+ *
+ * view는 3초마다 렌더링이 발생하고 있습니다.
+ * 이 때, 렌더링이 필요없는 Title 컴포넌트도 다시 렌더링 되고 있습니다.
+ *
+ * 어떻게 하면, Title 컴포넌트의 렌더링을 막을 수 있을까요?
+ */
+
 import React, { Component } from 'react'
 
 export default class Quiz03 extends Component {
