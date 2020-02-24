@@ -1,3 +1,7 @@
+/**
+ *
+ * normal vs debounce vs throttle : https://webclub.tistory.com/607
+ */
 import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import throttle from 'lodash/throttle'
