@@ -6,6 +6,7 @@ import Quiz03 from './Quiz/03/Q03'
 import Quiz04 from './Quiz/04/Q04'
 import Quiz05 from './Quiz/05/Q05'
 import Quiz06 from './Quiz/06/Q06'
+import Quiz07 from './Quiz/07/Q07'
 
 function Nav() {
   return (
@@ -28,6 +29,9 @@ function Nav() {
         </li>
         <li>
           <Link to="/quiz06">06</Link>
+        </li>
+        <li>
+          <Link to="/quiz07">07</Link>
         </li>
       </ul>
     </nav>
@@ -57,6 +61,9 @@ function Root() {
           </Route>
           <Route path="/quiz06">
             <Quiz06 />
+          </Route>
+          <Route path="/quiz07">
+            <Quiz07 />
           </Route>
         </div>
       </Switch>
