@@ -1,7 +1,11 @@
 /**
  *
- * Promise.all 을 사용하면, 비동기 처리를, 병렬로 진행 할 수 있습니다.
+ * 두 API 결과 간 의존성이 없다면, 병렬로 호출하는 것이 좋습니다.
+ * 병렬로 호출하는 방법으로는 Promise.all이 있습니다.
  *
+ * timeout 을 처리하는 방법으로는 Promise.race 를 사용하면 됩니다.
+ * race의 경우에는 가장 먼저 처리된 promise는 반환합니다.
+ * 따라서, A (3초), timeout(2초) 를 합께 race의 파라미터로 넣게 되면, timeout이 먼저 실행되게 됩니다.
  *
  */
 import React, { useEffect, useCallback, useState } from 'react'

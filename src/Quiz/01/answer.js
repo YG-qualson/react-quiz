@@ -1,3 +1,11 @@
+/**
+ *
+ * this.setState 는 비동기로 동작합니다.
+ * 이 전 상태를 참조하여 변경하려는 경우에는 this.setState((prevState) =>({ ... }))
+ * 와 같이 코드를 작성해야 합니다.
+ *
+ */
+
 import React, { Component } from 'react'
 
 export default class Q01 extends Component {

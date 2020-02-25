@@ -1,3 +1,12 @@
+/**
+ *
+ * componentWillUpdate 를 Hook으로 구현 할 수 있는가? 를 물어보는 문제입니다.
+ * 또한, 함수를 선언해 놓고, useCallback 으로 메모라이징 해놓지 않으면, 계속해서 그 함수가 생성되면서, 문제가 발생합니다.
+ *
+ * 추가로, debounce 를 custom hook으로 구현한 것을 확인 할 수 있습니다.
+ *
+ */
+
 import React, { useEffect, useState, useCallback } from 'react'
 import axios from 'axios'
 import _ from 'lodash'
