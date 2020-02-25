@@ -57,6 +57,7 @@ td {
 
 input {
   height: 30px;
+  width: 250px;
   padding: 12px;
   font-size: 14px;
   border: none;
@@ -96,4 +97,29 @@ ul {
   transform: scaleX(0.1) scaleY(0.1);
   transition: all 700ms ease-in;
   background-color: #f00;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.thumbnail {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.profile-bio {
+  font-weight: normal;
+  font-style: italic;
+  font-style: 17px;
+}
+
+.notfound {
+  margin-top: 12px;
+  color: tomato;
 }
