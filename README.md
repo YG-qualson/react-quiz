@@ -10,6 +10,7 @@
 6. map 함수로 컴포넌트를 렌더링 할 때 key 값으로 배열의 index 를 사용하면 안되는 이유!
 7. Throttling 과 custom Hook을 사용 할 줄 아는가!
 8. HOC 사용할 때 주의해야 할 점
+9. Class 기반으로 작성된 코드를 Hook 으로 변경 할 수 있는가?
 
 ## Getting started
 
