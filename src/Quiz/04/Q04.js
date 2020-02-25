@@ -30,10 +30,14 @@ export default class Q04 extends Component {
     const { todos } = this.state
     const idx = todos.findIndex(todo => todo.id === id)
 
-    todos[idx].done = !todos[idx].done
+    let newTodos = [...todos]
+    newTodos[idx] = { ...todos[idx], done: !todos[idx].done }
 
+    // todos[idx].done = !todos[idx].done
+
+    console.log(newTodos)
     this.setState({
-      todos
+      todos: newTodos
     })
   }
 

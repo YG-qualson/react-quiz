@@ -41,7 +41,7 @@ export default class Quiz03 extends Component {
   }
 }
 
-class Title extends Component {
+class Title extends React.PureComponent {
   render() {
     console.log('Title rendered')
 

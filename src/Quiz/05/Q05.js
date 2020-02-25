@@ -9,7 +9,8 @@ import React, { Component } from 'react'
 
 export default class Q05 extends Component {
   state = {
-    count: 0
+    count: 0,
+    items: ['apple', 'banana', 'orange']
   }
   onIncrement = () => {
     this.setState(prevState => {
@@ -19,10 +20,10 @@ export default class Q05 extends Component {
     })
   }
   render() {
-    const { count } = this.state
+    const { count, items } = this.state
     return (
       <>
-        <ChildrenComponent items={['apple', 'banana', 'orange']} />
+        <ChildrenComponent items={items} />
         {count}
         <button onClick={this.onIncrement}>+</button>
       </>
@@ -30,7 +31,7 @@ export default class Q05 extends Component {
   }
 }
 
-class ChildrenComponent extends Component {
+class ChildrenComponent extends React.PureComponent {
   render() {
     const { items } = this.props
     console.log('ChildrenComponent rendered!')
