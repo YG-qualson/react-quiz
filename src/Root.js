@@ -52,7 +52,7 @@ function Root() {
       {Nav()}
       <Switch>
         <div className="container">
-          <Route path="/">
+          <Route path="/" exact>
             <Quiz01 />
           </Route>
           <Route path="/quiz02">
