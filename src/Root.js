@@ -8,13 +8,14 @@ import Quiz05 from './Quiz/05/Q05'
 import Quiz06 from './Quiz/06/Q06'
 import Quiz07 from './Quiz/07/Q07'
 import Quiz08 from './Quiz/08/Q08'
+import Quiz09 from './Quiz/09/Q09'
 
 function Nav() {
   return (
     <nav>
       <ul className="nav">
         <li>
-          <Link to="/quiz01">01</Link>
+          <Link to="/">01</Link>
         </li>
         <li>
           <Link to="/quiz02">02</Link>
@@ -37,6 +38,9 @@ function Nav() {
         <li>
           <Link to="/quiz08">08</Link>
         </li>
+        <li>
+          <Link to="/quiz09">09</Link>
+        </li>
       </ul>
     </nav>
   )
@@ -48,7 +52,7 @@ function Root() {
       {Nav()}
       <Switch>
         <div className="container">
-          <Route path="/quiz01">
+          <Route path="/">
             <Quiz01 />
           </Route>
           <Route path="/quiz02">
@@ -71,6 +75,9 @@ function Root() {
           </Route>
           <Route path="/quiz08">
             <Quiz08 />
+          </Route>
+          <Route path="/quiz09">
+            <Quiz09 />
           </Route>
         </div>
       </Switch>
